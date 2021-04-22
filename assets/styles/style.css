@@ -1,0 +1,13 @@
+.display-4, .lead {
+    text-align: center;
+}
+
+#current-day {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: rgb(187, 161, 211);
+    border-bottom: rgb(141, 186, 187) solid 15px;
+}
+
