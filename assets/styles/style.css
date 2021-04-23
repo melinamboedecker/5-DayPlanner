@@ -11,3 +11,24 @@
     border-bottom: rgb(141, 186, 187) solid 15px;
 }
 
+.col {
+    text-align: center;
+}
+
+.green {
+    background-color: green;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+
