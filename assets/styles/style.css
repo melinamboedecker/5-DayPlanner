@@ -8,7 +8,8 @@
 
 .jumbotron {
     background-color: rgb(187, 161, 211);
-    border-bottom: rgb(141, 186, 187) solid 15px;
+    border-bottom: rgb(98, 39, 153) solid 15px;
+    margin-bottom: 2%;
 }
 
 .col {
@@ -20,7 +21,7 @@
 }
 
 .gray {
-    background-color: gray;
+    background-color: rgb(161, 159, 159);
 }
 
 .red {
