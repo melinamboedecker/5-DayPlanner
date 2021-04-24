@@ -12,13 +12,12 @@ var rows = $(".col-8");
 console.log(rows);
 console.log(rows.length);
 var rowsArray = Array.from(rows);
-console.log(rowsArray);
 
 function changeColors() {
-for (var i = 0; 1 < rowsArray.length; i++) {
-    //why does this say cannot read property 'id' of
-    //undefined but tempid shows the correct value???
-    let tempid = parseInt(rows[i].id);
+for (var i = 0; i < rowsArray.length; i++) {
+   
+    var tempid = parseInt(rows[i].id);
+    
     if (tempid < currentTime) {
         $(rowsArray[i]).addClass('gray');
     } else
@@ -28,8 +27,7 @@ for (var i = 0; 1 < rowsArray.length; i++) {
     if (tempid > currentTime) {
         $(rowsArray[i]).addClass('green');
     } 
-    else ($rowsArray[i]).addClass('white');
-}
+} 
 }
 
 //set up variables for save buttons
