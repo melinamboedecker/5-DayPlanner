@@ -8,7 +8,7 @@ $("#display-current-time").text(displayCurrentTime);
 var currentTime = parseInt(moment().format("H"));
 console.log(currentTime);
 
-var rows = $(".col-6");
+var rows = $(".col-8");
 console.log(rows);
 console.log(rows.length);
 var rowsArray = Array.from(rows);

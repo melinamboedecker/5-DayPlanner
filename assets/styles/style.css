@@ -16,6 +16,11 @@
     text-align: center;
 }
 
+.hours {
+    border-bottom: 0.5px dotted black;
+    padding-top: 5px;
+}
+
 .green {
     background-color: green;
 }
@@ -30,6 +35,13 @@
 
 .white {
     background-color: white;
+}
+
+.btn {
+    background-color: rgb(123, 167, 182);
+    color: white;
+    font-weight: bold;
+    margin: 0.3%;
 }
 
 
