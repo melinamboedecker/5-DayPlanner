@@ -13,7 +13,6 @@ console.log(rows);
 console.log(rows.length);
 var rowsArray = Array.from(rows);
 console.log(rowsArray);
-//var saveButton = $('.btn');
 
 function changeColors() {
 for (var i = 0; 1 < rowsArray.length; i++) {
@@ -44,6 +43,7 @@ var save15 = $("#save15");
 var save16 = $("#save16");
 var save17 = $("#save17");
 
+//set up variables for input fields
 var input9 = $("#9");
 var input10 = $("#10");
 var input11 = $("#11");
@@ -54,7 +54,7 @@ var input15 = $("#15");
 var input16 = $("#16");
 var input17 = $("#17");
 
-//save user inputted text into local storage 
+//save user inputted text into local storage and get from storage to put in field
 $(save9).on("click", function(event) {
     event.preventDefault();
     input9 = input9.val().trim();
@@ -126,8 +126,5 @@ $(save17).on("click", function(event) {
 });
 var savedItem17 = localStorage.getItem("hour17");
 input17.val(savedItem17);
-
-
-
 
 changeColors();
